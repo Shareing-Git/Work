@@ -1,0 +1,71 @@
+.header {
+    width: 100%;
+    padding: 0;
+    z-index: 10000;
+    transition: all 0.2s ease-in-out;
+    background-color: #eaf0ff;  
+    text-align: center;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    text-shadow: none;
+}
+
+.navbar-brand {
+	font-family: 'Spectral', serif;
+	font-size: 44px;
+	color: #121212;
+	font-style: italic;
+	text-align: center;
+	width: 100%;
+	border-bottom: 1px solid #d8deed;
+	position: relative;
+	padding: 40px 0px;
+	height: auto!important;
+}
+
+#main-nav {
+	padding: 35px 0px;
+	float: right;
+    position:relative;
+    left:-15%;
+    text-align: center;
+}
+
+.nav {
+	list-style:none;
+    position:relative;
+    left:50%;
+}
+
+.navbar-nav li {
+	margin: 0px 20px;
+}
+
+.navbar-nav li a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #363e50!important;
+	letter-spacing: 0.5px;
+}
+
+.header.active {
+    background-color: #eaf0ff;
+}
+.navbar-inverse {
+	background-image: none;
+	background-color: transparent;
+}
+.header .navbar {
+    margin: 0;
+    border: none;
+}
+.navbar-inverse .navbar-toggler {
+	margin-top: 22px;
+    border-color: #f2745f;
+    background-color: #f2745f;
+}
+.navbar-inverse .navbar-toggler:hover, .navbar-inverse .navbar-toggler:focus {
+	background-color: #f2745f;
+}
